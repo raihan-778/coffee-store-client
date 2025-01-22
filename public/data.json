@@ -1,0 +1,44 @@
+const coffeeMenu = [
+    {
+      name: "Espresso Bliss",
+      chef: "Marco Fernandez",
+      supplier: "Global Beans Co.",
+      taste: "Bold and rich with a hint of dark chocolate",
+      category: "Hot Coffee",
+      details: "A traditional espresso shot crafted with the finest Arabica beans.",
+      photo: "espresso_bliss.jpg"
+    },
+    {
+      name: "Caramel Macchiato",
+      chef: "Sarah Thompson",
+      supplier: "SweetBeans Supplies",
+      taste: "Sweet, creamy, and smooth caramel notes",
+      category: "Hot Coffee",
+      details: "A classic blend of espresso, steamed milk, and caramel drizzle.",
+      photo: "caramel_macchiato.jpg"
+    },
+    {
+      name: "Iced Vanilla Latte",
+      chef: "James Carter",
+      supplier: "Bean & Ice Co.",
+      taste: "Sweet vanilla balanced with creamy milk and bold coffee",
+      category: "Cold Coffee",
+      details: "A refreshing combination of espresso, vanilla syrup, and ice.",
+      photo: "iced_vanilla_latte.jpg"
+    },
+    {
+      name: "Mocha Delight",
+      chef: "Anna Gonzalez",
+      supplier: "Cocoa & Coffee Ltd.",
+      taste: "Chocolatey with a smooth coffee finish",
+      category: "Hot Coffee",
+      details: "A luscious blend of espresso, chocolate, and steamed milk.",
+      photo: "mocha_delight.jpg"
+    },
+    {
+      name: "Tropical Cold Brew",
+      chef: "Kevin Adams",
+      supplier: "Island Beans Co.",
+      taste: "Refreshing with hints of coconut and citrus",
+      category: "
+  
