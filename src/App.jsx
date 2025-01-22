@@ -1,7 +1,10 @@
 
+import { useLoaderData } from 'react-router-dom'
 import './App.css'
 
 function App() {
+
+  const {_id}=useLoaderData()
  
 
   return (
