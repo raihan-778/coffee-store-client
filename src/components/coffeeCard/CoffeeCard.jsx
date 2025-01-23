@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
-const CoffeeCard = ({ singleCoffee }) => {
+const CoffeeCard = ({ singleCoffee, coffees, setCoffees }) => {
   const { _id, name, chef, supplier, taste, category, details, photo } =
     singleCoffee;
 
@@ -33,6 +33,9 @@ const CoffeeCard = ({ singleCoffee }) => {
                 text: "Your Coffee has been deleted Successfully.",
                 icon: "warning",
               });
+
+              const remainingCoffees = coffees.filter((cfe) => cfe._id != _id);
+              setCoffees(remainingCoffees);
             }
           });
       }
